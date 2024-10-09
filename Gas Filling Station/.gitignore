@@ -1,0 +1,49 @@
+# Salesforce specific directories and files to ignore
+
+# SFDX workspace directory
+.sfdx/
+*.sfdx
+
+# Salesforce CLI cache and logs
+.sfdx/cache/
+.sfdx/tools/
+
+# Local IDE settings (VSCode)
+.vscode/
+
+# MacOS generated files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Package directories
+node_modules/
+package-lock.json
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Salesforce Metadata API package files
+*.manifest
+
+# Config files that might be local to the user
+*.code-workspace
+
+# Any untracked changes in the source format
+**/.prettierignore
+**/.prettierrc
+
+# Ignore any personal customizations or API keys
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
